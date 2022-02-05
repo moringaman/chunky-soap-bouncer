@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/AnimatedButton.js',
+  entry: './src/ChunkySoapBounce.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'AnimatedButton.js',
+    filename: 'ChunkySoapBounce.js',
     libraryTarget: 'commonjs2',
   },
   module: {

@@ -1,6 +1,6 @@
-<h1 align="center">Welcome to animated-button 👋</h1>
+<h1 align="center">Welcome to the ChunckySoap Bouncer 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/animated-button" target="_blank">
+  <a href="https://www.npmjs.com/package/chunky-soap-bouncer" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/animated-button.svg">
   </a>
   <a href="#" target="_blank">
@@ -11,7 +11,7 @@
   </a>
 </p>
 
-> 'Animated button component usyng styled components written in react'
+> 'Bouncing Loader using Rive animations'
 
 ## Install
 
@@ -22,18 +22,12 @@ npm install
 ## Usage
 
 ```js
-import AnimatedButton from "animated-button";
+import ChunkySoapBounce from "chunky-soap-bounce";
 
 function App() {
   return (
     <div>
-      <AnimatedButton
-        primary
-        sml
-        loading=false
-        text="Click Me"
-        handleClick={() => console.log("Clicked me!")}
-      ></AnimatedButton>
+      <ChunkySoapBounce />
     </div>
   );
 }
